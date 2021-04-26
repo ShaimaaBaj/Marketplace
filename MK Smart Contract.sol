@@ -380,11 +380,6 @@ function offer (uint _id, address payable _broker, string memory _topic, uint _r
 function mkOrder (uint _of_id, address payable _p, address payable _b, string memory _top, uint _ra,string memory _start, string  memory _to, uint _u, uint TA_id, uint _BS, uint _ETM, uint _TATI,uint GP, uint RT) public payable permitted
 {
     
-    // require (msg.value == ((_ETM * _u) + Rz), "Total Trade cost and penalty ( if any) needed.. ");
-
-    // require (msg.value == (_ETM * (_u/100)) ether, "Total Trade cost and penalty ( if any) needed.. ");
-
-    // if (msg.value != (_ETM * (_u/100) * 1000000000000000000) ) throw;
 
     require (msg.value != (_ETM * (_u/100) * 1000000000000000000),"Total Trade cost and penalty ( if any) needed.. ");
 
