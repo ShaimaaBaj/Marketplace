@@ -1,6 +1,6 @@
 pragma solidity ^0.5.16;
 
-contract LastYear  {
+contract MK  {
 
 //  ----- enum declreation --------- enum declreation --------------- enum declreation -----------------------
 
@@ -664,4 +664,4 @@ function setRepTest(address x, int rep, bool dec) public onlyOwner
 
 // }
 
-} // ond of nego3 contract
+} // ond of MK contract
